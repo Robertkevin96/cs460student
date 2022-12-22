@@ -1,0 +1,77 @@
+body {
+  background: black;
+  color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100vh;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a, nav label {
+  transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  font-size: x-large;
+}
+
+nav label {
+  border: none;
+  background-color: inherit;
+  padding: 20px 28px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  background: #f44336;
+  text-decoration: none;
+}
+
+a:hover, label:hover {
+  border: none;
+  background-color: inherit;
+  padding: 25px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 8px;
+  background: #f44336;
+  color: white;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+a {
+  border: none;
+  background-color: inherit;
+  padding: 20px 28px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  background: #f44336;
+  text-decoration: none;
+}
+
+input[type="file"] {
+  display: none;
+}
